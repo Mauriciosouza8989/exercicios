@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../aulas/masterclass/grilstoer/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>churrascômetro</title>
+</head>
+
+<body>
+    <div class="col-12 mt-4 d-lg-none row text-center">
+        <h3 class="pl-5">Curta seu churrasco com seus amigos sem medo de que falte algo!</h3>
+    </div>
+    <div class="container-fluid d-flex p-0 justify-content-center align-items-center">
+        <div id="esquerda" style="background-color: rgb(191, 153, 226);" class="text-center container col-7 mr-0">
+            <div class="row px-5">
+                <h1>Curta seu churrasco com seus amigos sem medo de que falte algo!</h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <img src="DancingDoodle.png" alt="" id="imagem">
+            </div>
+        </div>
+        <div id="direita" class="d-flex justify-content-center container col-sm-7 col-lg-4 bg-warning">
+            <div class="p-0">
+                <div class="row d-flex justify-content-center align-items-center my-5 text-dark">
+                    <h1>Churrascômetro</h1>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <input id="adultos" name="adultos" type="number" class="mb-3 text-center p-3 form-control" placeholder="Quantidade de Adultos">
+                    <input id="criancas" name="Crianças" type="number" class="mb-3 text-center p-3 form-control" placeholder="Quantidade de Crianças">
+                    <input id="duracao" name="duracao" type="number" class="mb-3 text-center p-3 form-control" placeholder="Quantidade de Tempo(h)">
+                    <button onclick="calcular()" class="btn btn-primary btn-lg">Calcular</button>
+                </div>
+                <br>
+                <br>
+                <div id="resultado" class="text-center mt-8 text-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

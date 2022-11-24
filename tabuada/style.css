@@ -1,0 +1,85 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        text-align: center;
+        background: rgb(120, 63, 143);
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    h1 {
+        color: blanchedalmond;
+        font-size: 50px;
+    }
+    
+    #corpo {
+        position: relative;
+        width: 50%;
+        padding-top: 30px;
+        display: inline-block;
+        background: rgb(197, 190, 190);
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    input {
+        display: flex;
+        padding: 10px;
+        width: 70%;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        outline: none;
+        text-align: center;
+    }
+    
+    button {
+        width: 50%;
+        background-color: rgb(69, 69, 255);
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        margin-top: 15px;
+        border: none;
+        box-shadow: 5px 5px 7px rgb(22, 39, 223);
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: blue;
+    }
+    
+    p {
+        font-size: 2em;
+        margin-top: 20px;
+    }
+    
+    #resultado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-weight: 800;
+    }
+    
+    @media screen and (max-width: 800px) {
+        #corpo {
+            width: 90vw;
+            height: auto;
+        }
+    }
