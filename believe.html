@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Believe yourserlf</title>
+
+    <style>
+        body {
+            background-color: #000;
+        }
+        
+        h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            padding: 0;
+            font-size: 8em;
+            color: transparent;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        
+        h2 span:nth-child(1) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            transition: 0.5s;
+            clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+            overflow: hidden;
+        }
+        
+        h2:hover span:nth-child(1) {
+            transform: translateY(-18px);
+        }
+        
+        h2 span:nth-child(2) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            transition: 0.5s;
+            clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+            overflow: hidden;
+        }
+        
+        h2:hover span:nth-child(2) {
+            transform: translateY(18px);
+        }
+        
+        h2 span:nth-child(3) {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%) scaleY(0);
+            width: 81%;
+            color: #000;
+            background: rgb(210, 210, 3);
+            font-size: 0.25em;
+            letter-spacing: 0.7em;
+            text-align: center;
+            padding-left: 20px;
+            margin-left: 5px;
+            transition: 0.5s;
+        }
+        
+        h2:hover span:nth-child(3) {
+            transform: translateY(-50%) scaleY(1);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        BEliveve
+        <span>Believe</span>
+        <span>Believe</span>
+        <span>in yourserlf</span>
+    </h2>
+</body>
+
+</html>
